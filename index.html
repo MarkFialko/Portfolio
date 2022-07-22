@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html class="lock" lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220722143554">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js?_v=20220722143554"></script>
+</head>
+
+<body>
+	<div id="cursor"></div>
+	<div id="aura"></div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page">
+			<div class="main">
+				<div class="main__container">
+					<h1 class="main__title title-main">
+						<p data-animation="title" class="title-main__row">Hi,</p>
+						<p data-animation="title" class="title-main__row">I'm Mark,</p>
+						<p data-animation="title" class="title-main__row">Web developer</p>
+					</h1>
+					<a href="#" data-animation="button" class="main__button button">
+						<span>Contact me!</span>
+					</a>
+				</div>
+			</div>
+			<div class="about">
+				<div class="about__container">
+					<h2 data-animation="title" class="about__subtitle subtitle"><span>About me</span></h2>
+					<div class="about__content">
+						<div class="about__text">
+							<span data-animation="subtitle">
+								I'm a Front-End Developer located in Russia. I started programming
+								one year
+								ago and have been styduing Web Development at University all this time. Before that, I played
+								football prefessionally, but decided to choose my studies. Started by learning CSS3, HTML5
+								and
+								JavaScript. Now I'm planning to start learning React.
+							</span>
+							<div class="about__progress progress-about">
+								<div class="progress-about__item">
+									<span><picture><source srcset="img/html5.webp" type="image/webp"><img src="img/html5.png" alt=""></picture></span>
+									<div data-animation="progress:80%" class="progress-about__indicator">
+										<p></p>
+									</div>
+								</div>
+								<div class="progress-about__item">
+									<span><picture><source srcset="img/css.webp" type="image/webp"><img src="img/css.png" alt=""></picture></span>
+									<div data-animation="progress:70%" class="progress-about__indicator">
+										<p></p>
+									</div>
+								</div>
+								<div class="progress-about__item">
+									<span><picture><source srcset="img/javascript.webp" type="image/webp"><img src="img/javascript.png" alt=""></picture></span>
+									<div data-animation="progress:50%" class="progress-about__indicator">
+										<p></p>
+									</div>
+								</div>
+								<div class="progress-about__item">
+									<span><picture><source srcset="img/git.webp" type="image/webp"><img src="img/git.png" alt=""></picture></span>
+									<div data-animation="progress:60%" class="progress-about__indicator">
+										<p></p>
+									</div>
+								</div>
+								<div class="progress-about__item">
+									<span><picture><source srcset="img/nodejs.webp" type="image/webp"><img src="img/nodejs.png" alt=""></picture></span>
+									<div data-animation="progress:40%" class="progress-about__indicator">
+										<p></p>
+									</div>
+								</div>
+								<div class="progress-about__item">
+									<span><picture><source srcset="img/scss.webp" type="image/webp"><img src="img/scss.png" alt=""></picture></span>
+									<div data-animation="progress:60%" class="progress-about__indicator">
+										<p></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="about__cirkle"></div>
+					</div>
+					<div class="about__information information-about">
+						<div class="information-about__university">
+							<h3 class="information-about__title">University:</h3>
+							<p class="information-about__info">Ural Federation University</p>
+							<h3 class="information-about__title information-about__title-little">Faculty:</h3>
+							<p class="information-about__info information-about__info-little">Institute of Natural Sciences and Mathematics</p>
+							<h3 class="information-about__title information-about__title-little">Speciality:</h3>
+							<p class="information-about__info information-about__info-little">Mathematics and Computer Science</p>
+							<h3 class="information-about__title information-about__title-little">Year of ending:</h3>
+							<p class="information-about__info information-about__info-little">2025</p>
+						</div>
+						<div class="information-about__location">
+							<h3 class="information-about__title">Location:</h3>
+							<p class="information-about__info">Russia, Ekaterinburg</p>
+						</div>
+						<div class="information-about__skills">
+							<h3 class="information-about__title">Skills:</h3>
+							<p class="information-about__info">Adaptive website layout</p>
+							<p class="information-about__info">Cross-browser website layout</p>
+							<p class="information-about__info">Writing and Debugging Javascript Code</p>
+							<p class="information-about__info">ES5/ES6</p>
+							<p class="information-about__info">Using Webpack and Gulp preprocessors</p>
+							<p class="information-about__info">Working with Git</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio">
+				<div class="portfolio__wrapper">
+					<div class="portfolio__container">
+						<h2 data-animation="title" class="portfolio__subtitle subtitle"><span>Portfolio</span></h2>
+					</div>
+					<div class="portfolio__content">
+						<a href="https://markfialko.github.io/IPhub/" target="_blank" data-animation="item" data-timeout="1" class="portfolio__item item-portfolio portfolio__item-iphub">
+							<img src="img/iphub.svg" alt="">
+							<h2 class="item-portfolio__title"></h2>
+							<p class="item-portfolio__subtitle"></p>
+							<span class="item-portfolio__decoration">
+								<span>Show more</span>
+							</span>
+						</a>
+						<a href="#" data-animation="item" data-timeout="2" onclick="return false" class="portfolio__item item-portfolio portfolio__item-empty">
+							<img class="empty-img" src="img/empty.svg" alt="">
+							<h2 class="item-portfolio__title"></h2>
+							<p class="item-portfolio__subtitle"></p>
+							<span class="item-portfolio__decoration">
+								<span>Show more</span>
+							</span>
+						</a>
+						<a data-animation="item" data-timeout="3" href="https://markfialko.github.io/mesto/" target="_blank" class="portfolio__item item-portfolio portfolio__item-mesto">
+							<img src="img/mesto.svg" alt="">
+							<h2 class="item-portfolio__title"></h2>
+							<p class="item-portfolio__subtitle"></p>
+							<span class="item-portfolio__decoration">
+								<span>Show more</span>
+							</span>
+						</a>
+						<a href="#" data-timeout="4" onclick="return false" data-animation="item" class="portfolio__item item-portfolio portfolio__item-empty">
+							<img class="empty-img" src="img/empty.svg" alt="">
+							<h2 class="item-portfolio__title"></h2>
+							<p class="item-portfolio__subtitle"></p>
+							<span class="item-portfolio__decoration">
+								<span>Show more</span>
+							</span>
+						</a>
+
+					</div>
+				</div>
+			</div>
+			<div class="contacts">
+				<div class="contacts__container">
+					<div class="contacts__info">
+						<h2 data-animation="title" class="contacts__subtitle subtitle"><span>Contacts</span></h2>
+						<form data-animation="form" action="" class="contacts__form form-contacts">
+							<div class="form-contacts__input-top">
+								<div data-form class="form-contacts__item">
+									<input name="name" id="name" type="text" placeholder="Name">
+								</div>
+								<div data-form class="form-contacts__item">
+									<input name="email" id="email" type="email" placeholder="Email">
+								</div>
+							</div>
+							<div data-form class="form-contacts__item">
+								<textarea name="message" id="meaasge" placeholder="Message"></textarea>
+							</div>
+							<div data-form class="form-contacts__item form-contacts__item-submit">
+								<button type="submit" class="contacts__button button">
+									<span>Send form!</span>
+								</button>
+							</div>
+						</form>
+					</div>
+					<div class="contacts__sphere">
+						<div data-animation="sphere" class="sphere"></div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<div class="preloader">
+		<picture><source srcset="img/markfialko.webp" type="image/webp"><img src="img/markfialko.png" alt=""></picture>
+		<div class="preloader__download">
+		</div>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220722143554"></script>
+</body>
+
+</html>
