@@ -632,7 +632,7 @@ body {
 }
 .information-about__title-little {
   padding: 0rem 0rem 0rem 1.25rem;
-  margin: 0rem 0rem 1.5625rem 0rem;
+  margin: 0rem 0rem 1.5625rem 0rem !important;
 }
 @media (min-width: 75em) {
   .information-about__title-little {
@@ -658,7 +658,7 @@ body {
 }
 @media (max-width: 47.99875em) {
   .information-about__title-little {
-    margin: 0rem 0rem 0.9375rem 0rem;
+    margin: 0rem 0rem 0.9375rem 0rem !important;
   }
 }
 .information-about__info {
