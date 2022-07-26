@@ -401,10 +401,7 @@
                     let animItemOffset = offset(animItem).top;
                     const animStart = 4;
                     let animItemPoint = window.innerHeight - animItemHeight / animStart;
-                    if (animItemHeight > window.innerHeight) {
-                        console.log(window.innerHeight - window.innerHeight / animStart);
-                        animItemPoint = window.innerHeight - window.innerHeight / animStart;
-                    }
+                    if (animItemHeight > window.innerHeight) animItemPoint = window.innerHeight - window.innerHeight / animStart;
                     const thisAnimation = animItem.dataset.animation;
                     if (pageYOffset > animItemOffset - animItemPoint && pageYOffset < animItemOffset + animItemHeight) {
                         if ("canvas" === animItem.localName) animItem.classList.add("active");
@@ -653,15 +650,9 @@
             const numberOfRings = 3;
             const ringRadiusOffset = 7;
             const waveOffset = 15;
-            const colors = [ `#FF0000`, `#ff004c`, `#c50d28` ];
+            const colors = [ `#771122`, `#bb1122`, `#ff1122` ];
             let startAngle = 0;
             let angle = 1;
-            cnv.addEventListener("mouseover", (() => {
-                angle = 5;
-            }));
-            cnv.addEventListener("mouseout", (() => {
-                angle = 1;
-            }));
             function updateRings() {
                 for (let i = 0; i < numberOfRings; i++) {
                     let radius = i * ringRadiusOffset + ringRadius;
